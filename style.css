@@ -371,6 +371,14 @@ nav img {
         max-width: 225px;
     }
 
+    .hero {
+        background-position: right;
+    }
+
+    .hero img {
+        margin: 0 0 0 80px;
+    }
+
     .hidden-xs {
         display: block;
     }
@@ -446,6 +454,10 @@ nav img {
         flex: 0 1 60%;
     }
 
+    .hero img {
+        margin-left: 225px;
+    }
+
     .section h1,
     .section-title h1 {
         font-size: 42px;
@@ -461,6 +473,10 @@ nav img {
         flex: 0 1 50%;
     }
 
+    .hero img {
+        margin-left: 325px;
+    }
+
     .timeline .carousel {
         height: 530px;
         margin: 0 auto;
@@ -469,12 +485,20 @@ nav img {
 }
 
 @media (min-width: 1500px) {
+    .hero img {
+        margin-left: 450px;
+    }
+
     .timeline .carousel {
         width: 85%;
     }
 }
 
 @media (min-width: 1600px) {
+    .hero img {
+        margin: 0 auto;
+    }
+
     .timeline .carousel {
         width: 80%;
     }
