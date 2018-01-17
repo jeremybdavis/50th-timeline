@@ -1,0 +1,485 @@
+.hidden-xs {
+    display: none;
+}
+
+/* Text */
+
+.hca-50 {
+    font-family: 'Arimo', sans-serif;
+}
+
+.carousel .year,
+.mission-statement,
+.section h1,
+.quote h2,
+.footer {
+    font-family: 'Domine', serif;
+}
+
+.section h1 {
+    color: #001641;
+}
+
+.section p,
+.quote h2 {
+    color: #58514a;
+}
+
+.section h1,
+.section-title h1 {
+    font-size: 32px;
+}
+
+.quote h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding-bottom: 55px;
+}
+
+
+.mission-statement,
+.quote-name,
+.quote-title {
+    font-size: 16px;
+}
+
+.event-info {
+    font-size: 18px;
+}
+
+/* Nav */
+
+nav {
+    height: 60px;
+    padding: 10px;
+}
+
+nav img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+    background-image: url('./img/founders.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 100px 0;
+}
+
+.hero img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* SECTIONS */
+
+.section {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    padding: 20px;
+}
+
+.content {
+    max-width: 1000px;
+}
+
+/* About */
+
+.about .section-title {
+    align-items: center;
+    display: flex;
+    flex: 1 0 350px;
+    margin-bottom: 20px;
+}
+
+.about-graphic {
+    flex: 0 0 250px;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.about-description {
+    flex: 0 0 45%;
+}
+
+.bloodstream-percentage {
+    flex: 0 0 115px;
+    margin: 0 auto;
+    max-width: 115px;
+    padding-top: 20px;
+}
+
+.campus-img {
+    display: block;
+    margin: 0 auto;
+    max-height: 180px;
+    max-width: 180px;
+}
+
+.section-icon {
+    margin-right: 15px;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.section-title h1 {
+    margin: 0;
+}
+
+.strength {
+    background-image: url('./img/nurse-image.jpg');
+}
+
+.innovation {
+    background-image: url('./img/microscope-photo.jpg');
+}
+
+/* Quote */
+
+.quote {
+    background-color: #ede9e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote .content {
+    max-width: 880px;
+    text-align: center;
+}
+
+.quote-name {
+    border-top: 2px solid #e05929;
+    padding: 30px 20px 0;
+}
+
+.quote-title {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Timeline */
+
+.carousel .year {
+    background-color: #e05929;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 52px;
+    height: 150px;
+    padding: 42px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel .item {
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-sm .item-content {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.carousel .event {
+    color: #001641;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#timeline-carousel .glyphicon-chevron-left {
+    left: 35%;
+    top: 25%;
+}
+
+#timeline-carousel .glyphicon-chevron-right {
+    right: 35%;
+    top: 25%;
+}
+
+.timeline {
+    background-image: url('./img/frist.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.timeline h1 {
+    text-align: center;
+}
+
+.timeline .carousel {
+    height: 450px;
+    margin-top: 30px;
+}
+
+.timeline .carousel-control {
+    color: #58514a;
+    opacity: .6;
+    text-shadow: none;
+    transition: all .3s ease-in-out;
+}
+
+.timeline .carousel-control:hover {
+    color: #58514a;
+    opacity: .4;
+}
+
+.timeline .carousel-control.left,
+.timeline .carousel-control.right {
+    background: 0;
+}
+
+.timeline .carousel-indicators .active {
+    background-color: #58514a;
+}
+
+.timeline .carousel-indicators li {
+    border: 1px solid #58514a;
+    margin: 0 2px;
+    opacity: .5;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #001641;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    color: #fff;
+}
+
+.footer-content img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.footer-content p {
+    font-size: 18px;
+    padding: 40px 0 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .info {
+        margin-left: 40px;
+    }
+
+    .carousel-sm .item-content {
+        padding-top: 40px;
+    }
+
+    .hero {
+        padding: 75px 0;
+    }
+
+    .intro .content {
+        align-items: center;
+        display: flex;
+    }
+
+    .section {
+        padding: 40px 60px;
+    }
+
+    .section h1,
+    .section-title h1 {
+        font-size: 36px;
+    }
+
+    .section-icon {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .quote h2 {
+        font-size: 28px;
+        line-height: 44px;
+    }
+
+    .timeline .carousel {
+        height: 450px;
+        margin-top: 0;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer-content {
+        align-items: center;
+        display: flex;
+        flex: 0 1 80%;
+    }
+
+    .footer-content p {
+        font-size: 20px;
+        padding: 0 0 0 30px;
+    }
+
+    .quote {
+        padding: 20px 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-description {
+        padding: 0 20px;
+    }
+
+    .about .section-title {
+        flex-wrap: wrap;
+        max-width: 275px;
+    }
+
+    .campus-img {
+        margin: 0;
+        max-height: 225px;
+        max-width: 225px;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none;
+    }
+
+    .carousel .year {
+        font-size: 48px;
+        height: 150px;
+        padding: 45px 0;
+        width: 150px;
+    }
+
+    .carousel-lg .carousel-inner {
+        padding: 0;
+    }
+
+    .carousel-lg .carousel-indicators {
+        bottom: 0;
+    }
+
+    .carousel-lg .item-content {
+        padding-top: 25px;
+    }
+
+    .footer-content {
+        flex: 0 1 75%;
+    }
+
+    .innovation .content {
+        justify-content: flex-start;
+    }
+
+    .section-icon {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .strength .section-title {
+        max-width: 350px;
+    }    
+
+    .timeline .carousel {
+        height: 620px;
+    }
+
+    #timeline-carousel-lg .glyphicon-chevron-left {
+        left: 0;
+        top: 18%;
+    }
+    
+    #timeline-carousel-lg .glyphicon-chevron-right {
+        right: 0;
+        top: 18%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-description {
+        padding: 0 60px;
+    }
+
+    .bloodstream-percentage {
+        margin: 0;
+    }
+
+    .carousel .year {
+        font-size: 52px;
+        height: 170px;
+        padding: 50px 0;
+        width: 170px;
+    }
+
+    .footer-content {
+        flex: 0 1 60%;
+    }
+
+    .section h1,
+    .section-title h1 {
+        font-size: 42px;
+    }
+
+    .timeline .carousel {
+        height: 560px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .footer-content {
+        flex: 0 1 50%;
+    }
+
+    .timeline .carousel {
+        height: 530px;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .timeline .carousel {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .timeline .carousel {
+        width: 80%;
+    }
+}
