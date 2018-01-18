@@ -100,6 +100,12 @@ nav img {
 
 /* About */
 
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about .section-title {
     align-items: center;
     display: flex;
@@ -118,6 +124,7 @@ nav img {
 }
 
 .bloodstream-percentage {
+    display: none;
     flex: 0 0 115px;
     margin: 0 auto;
     max-width: 115px;
@@ -141,13 +148,35 @@ nav img {
     margin: 0;
 }
 
+.innovation,
 .strength {
-    background-image: url('./img/nurse-image.jpg');
+    position: relative;
 }
 
-.innovation {
-    background-image: url('./img/microscope-photo.jpg');
+.strength::after {
+    background-image: url('./img/nurse-image-2.jpg');
 }
+
+.innovation::after,
+.strength::after {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+.innovation::after {
+    background-image: url('./img/microscope-photo-2.jpg');
+}
+
+
 
 /* Quote */
 
@@ -288,12 +317,6 @@ nav img {
 
 /* Tablet */
 @media (min-width: 768px) {
-    .about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .about .info {
         margin-left: 40px;
     }
@@ -371,6 +394,10 @@ nav img {
         max-width: 275px;
     }
 
+    .bloodstream-percentage {
+        display: block;
+    }
+
     .campus-img {
         margin: 0;
         max-height: 225px;
@@ -425,7 +452,12 @@ nav img {
 
     .strength .section-title {
         max-width: 350px;
-    }    
+    }
+
+    .innovation::after,
+    .strength::after {
+        opacity: 1;
+    }
 
     .timeline .carousel {
         height: 620px;
