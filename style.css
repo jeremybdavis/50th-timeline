@@ -69,7 +69,7 @@ nav img {
 }
 
 .hero-img {
-    background-image: url('./img/founders.jpg');
+    background-image: url('./img/hero-mobile-bg.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,6 +405,7 @@ nav img {
     }
 
     .hero-img {
+        background-image: url('./img/founders.jpg');
         background-position: right;
         padding: 100px 0;
         transform: scale(1.1);
