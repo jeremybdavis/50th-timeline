@@ -505,12 +505,12 @@ nav img {
     }
 
     .strength .section-title {
-        max-width: 350px;
+        max-width: 260px;
     }
 
     .innovation::after,
     .strength::after {
-        opacity: 1;
+        opacity: .8;
     }
 
     .timeline .carousel {
@@ -560,9 +560,18 @@ nav img {
         margin-left: 25%;
     }
 
+    .innovation::after,
+    .strength::after {
+        opacity: 1;
+    }
+
     .section h1,
     .section-title h1 {
         font-size: 42px;
+    }
+
+    .strength .section-title {
+        max-width: 350px;
     }
 
     .timeline .carousel {
